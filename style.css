@@ -12,7 +12,8 @@ body{
     display: flex;
     flex-direction: column;
     background-color: white;
-    max-width: 350px;
+    max-width: 300px;
+    height: auto;
     border-radius: 20px;
     border: 1px solid black;
     margin: 25px auto;
@@ -30,7 +31,8 @@ img{
 
 #preview{
     width: 90%;
-    margin: auto;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align: left;
     
 }
@@ -41,13 +43,56 @@ h3{
     font-family: Montserrat;
     font-weight: 500;
     letter-spacing: 4px;
-    font-size: 0.75rem;
+    font-size: 0.5rem;
+    
 }
 
 h1{
     color: hsl(212, 21%, 14%);
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-family: Fraunces;
 }
 
 p{
     color: hsl(228, 12%, 48%); 
+    font-family: Montserrat;
+    font-size: 0.75rem;
+    margin-right: 20px;
+    line-height: 1.6;
+
+}
+
+.new-price{
+    color: hsl(158, 36%, 37%);
+    font-size: 1.75rem;
+    font-family: Fraunces;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.old-price{
+    color: hsl(228, 12%, 48%);
+    font-size: 0.75rem;
+
+}
+ 
+#btn{
+    margin:auto;
+    width:100%;
+    height:auto;
+
+}
+
+button{
+    background-color:hsl(158, 36%, 37%);
+    width: 100%;
+    height: 40px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    align-items: center;
 }
