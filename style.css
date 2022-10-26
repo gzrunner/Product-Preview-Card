@@ -15,10 +15,12 @@ body{
     max-width: 300px;
     height: auto;
     border-radius: 20px;
-    border: 1px solid black;
+    border: none;
     margin: 25px auto;
     
 }
+
+
 
 img{
     margin: auto;
@@ -118,6 +120,35 @@ p{
     margin: 0;
     padding: 10px;
 
+}
+
+@media only screen and (max-width: 600px){
+    .mobile-img{
+        display:block;
+    }
+
+    .desktop-img{
+        display:none;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .mobile-img{
+        display:none;
+    }
+
+    .desktop-img{
+        display:block;
+    }
+
+    #container{
+        display:flex;
+        flex-direction: row;
+        
+        
+    }
+
+    
 }
 /*
 button{
